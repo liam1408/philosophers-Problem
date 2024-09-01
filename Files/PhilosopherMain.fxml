@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Circle?>
+
+<BorderPane maxHeight="385.0" maxWidth="430.0" minHeight="385.0" minWidth="430.0" prefHeight="385.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PhilosopherController">
+   <center>
+      <Circle fill="DODGERBLUE" radius="93.0" stroke="BLACK" strokeType="INSIDE" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="phil4" fitHeight="107.0" fitWidth="113.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@phil.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="phil3" fitHeight="107.0" fitWidth="107.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@phil.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+   </bottom>
+   <top>
+      <ImageView fx:id="phil1" fitHeight="102.0" fitWidth="118.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@phil.jpg" />
+         </image>
+      </ImageView>
+   </top>
+   <right>
+      <ImageView fx:id="phil2" fitHeight="123.0" fitWidth="119.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@phil.jpg" />
+         </image>
+      </ImageView>
+   </right>
+   <left>
+      <ImageView fx:id="phil5" fitHeight="116.0" fitWidth="116.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@phil.jpg" />
+         </image>
+      </ImageView>
+   </left>
+</BorderPane>
